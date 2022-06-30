@@ -1,0 +1,17 @@
+@tailwind base;
+
+body {
+  background: #503484
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  @apply underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
